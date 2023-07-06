@@ -1,0 +1,42 @@
+.home-container{
+    height: 90vh;
+    background-color: lightblue;
+    padding: 10vh 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.image-container__home{
+    height: 25rem;
+    width: 25rem;
+}
+.image__home{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    color: white;
+}
+
+.text-container__home{
+    height: 25rem;
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.title__home{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.title__home span{
+    color: red;
+}
+
+.sub-title__home{
+    font-size: 2rem;
+    font-weight: 200;
+    margin-bottom: 2rem;
+}
+
