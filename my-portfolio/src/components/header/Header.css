@@ -1,0 +1,27 @@
+.header-container{
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100vw;
+    height: 10vh;
+}
+
+.header-title{
+    margin-left: 1rem;
+    color: white;
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    gap: 1rem;
+}
