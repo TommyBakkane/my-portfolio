@@ -1,6 +1,5 @@
 .home-container{
-    height: 90vh;
-    background-color: lightblue;
+    height: 100vh;
     padding: 10vh 0 0 0;
     display: flex;
     justify-content: center;
@@ -16,7 +15,7 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
-    color: white;
+    color: #c3a6a0;
 }
 
 .text-container__home{
@@ -31,7 +30,7 @@
     font-weight: bold;
 }
 .title__home span{
-    color: red;
+    color: #A15C38;
 }
 
 .sub-title__home{

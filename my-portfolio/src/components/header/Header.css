@@ -1,5 +1,4 @@
 .header-container{
-    background-color: grey;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,18 +9,20 @@
 
 .header-title{
     margin-left: 1rem;
-    color: white;
+    font-size: 4rem;
+    font-weight: 200;
 }
 .nav-container{
-    display: flex;
-    align-items: center;
-    margin-right: 1rem;
+    width: 100%;
 }
 
 .nav-list{
     display: flex;
+    align-items: center;
+    justify-content: space-around;
     flex-direction: row;
     text-decoration: none;
     list-style: none;
     gap: 1rem;
+    width: 100%;
 }
