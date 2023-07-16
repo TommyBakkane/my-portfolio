@@ -38,10 +38,3 @@
     font-weight: 200;
     margin-bottom: 2rem;
 }
-
-@media screen and (max-width: 768px) {
-    .image-container__home{
-        height: 20rem;
-        width: 20rem;
-    }
-}
