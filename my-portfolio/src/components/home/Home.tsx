@@ -1,10 +1,10 @@
-import "./Home.css";
+import "../../styles/Home.css"
 import * as BsIcon from "react-icons/bs";
 
 export const Home = () => {
     
         return (
-            <section className="home-container">
+            <section className="home-container" id="home">
                 <div className="image-container__home">
                     <BsIcon.BsPersonFill className="image__home" />
                 </div>

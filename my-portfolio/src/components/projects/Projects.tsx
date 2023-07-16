@@ -1,9 +1,9 @@
-import "./Projects.css"
+import "../../styles/Projects.css"
 
 export const Projects = () => {
 
     return (
-        <section className="projects-container">
+        <section className="projects-container" id="projects">
                 <h1 className="title__projects"> My Projects </h1>
                 <ul className="project-list">
                     <li className="project-item">Project 1</li>

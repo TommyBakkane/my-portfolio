@@ -1,8 +1,7 @@
 import { Form, Input, TextArea, Button } from "semantic-ui-react";
 import emailjs from "emailjs-com";
 import Swal from "sweetalert2";
-import React from "react";
-import "./Contact.css"
+import "../../styles/Contact.css"
 import * as AiIcon from "react-icons/ai"
 
 export const Contact = () => {
@@ -31,7 +30,7 @@ export const Contact = () => {
     }
 
     return(
-        <section className="contact-container">
+        <section className="contact-container" id="contact">
             <h1 className="title__contact">Contact</h1>
             <div className="contact-content">
                 <div className="email-container">
@@ -70,7 +69,6 @@ export const Contact = () => {
                 <ul className="social-icon">
                     <li className="social-item"><AiIcon.AiFillGithub/></li>
                     <li className="social-item"><AiIcon.AiFillLinkedin/></li>
-                    <li className="social-item"><AiIcon.AiFillMail/></li>
                 </ul>
             </div>
         </section>

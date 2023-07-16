@@ -1,10 +1,11 @@
 .about-container{
     height: 100vh;
+    padding: 12vh 0 0 0;
     width: 100%;
 }
 
 .title__about{
-    font-size: 4rem;
+    font-size: 4rem;    
     font-weight: 200;
     text-align: center;
 }
