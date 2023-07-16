@@ -4,7 +4,7 @@ import {TbBrandKotlin} from "react-icons/tb"
 
 export const Skills = () => {
     return(
-        <section className="skills-container" id="about">
+        <section className="skills-container" id="skills">
             <div className="skill-info">
                 <h2 className="sub-title__skills">Skills</h2>
                 <p className="skill-description">I have experience with the following languages and frameworks:</p>
