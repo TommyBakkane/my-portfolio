@@ -1,41 +1,29 @@
-.about-container{
+.skills-container{
     height: 100vh;
     padding: 12vh 0 0 0;
     width: 100%;
-}
-
-.title__about{
-    font-size: 4rem;    
-    font-weight: 200;
-    text-align: center;
-}
-.info-container{
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    height: 80%;
-    width: 100%;
-}
-.personal-info{
-    width: 40%;
-    height: 80%;
-    border-radius: 1rem;
-    background-color: #c3a6a0;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    justify-content: center;
 }
 .skill-info{
-    width: 40%;
+    width: 80%;
     height: 80%;
     border-radius: 1rem;
     background-color: #c3a6a0;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 1.5rem;
 }
-.sub-title__about{
-    font-size: 2rem;
+.sub-title__skills{
+    font-size: 3rem;
     font-weight: 400;
     text-align: center;
     margin-top: .5rem;
 }
+.skill-description{
+    text-align: center;
+}
+
 .skill-list{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -43,4 +31,11 @@
     text-align: center;
     gap: 2rem;
     margin-top: 2rem;
+}
+
+.skill-item{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+
 }

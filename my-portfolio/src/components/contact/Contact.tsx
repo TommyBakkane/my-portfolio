@@ -2,7 +2,7 @@ import { Form, Input, TextArea, Button } from "semantic-ui-react";
 import emailjs from "emailjs-com";
 import Swal from "sweetalert2";
 import "../../styles/Contact.css"
-import * as AiIcon from "react-icons/ai"
+import { Footer } from "../footer/Footer";
 
 export const Contact = () => {
     const SERVICE_ID = "service_u2a77fa";
@@ -31,7 +31,6 @@ export const Contact = () => {
 
     return(
         <section className="contact-container" id="contact">
-            <h1 className="title__contact">Contact</h1>
             <div className="contact-content">
                 <div className="email-container">
                     <Form onSubmit={handleOnSubmit}>
@@ -62,15 +61,13 @@ export const Contact = () => {
                         name='user_message'
                         placeholder='Message...'
                         required
+                        className="message"
                         />
                         <Button type='submit' color="blue">Submit</Button>
                     </Form>
                 </div>
-                <ul className="social-icon">
-                    <li className="social-item"><AiIcon.AiFillGithub/></li>
-                    <li className="social-item"><AiIcon.AiFillLinkedin/></li>
-                </ul>
             </div>
+            <Footer />
         </section>
     )
 }
