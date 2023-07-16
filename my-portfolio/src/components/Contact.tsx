@@ -1,8 +1,8 @@
 import { Form, Input, TextArea, Button } from "semantic-ui-react";
 import emailjs from "emailjs-com";
 import Swal from "sweetalert2";
-import "../../styles/Contact.css"
-import { Footer } from "../footer/Footer";
+import "../styles/Contact.css"
+import { Footer } from "./Footer";
 
 export const Contact = () => {
     const SERVICE_ID = "service_u2a77fa";

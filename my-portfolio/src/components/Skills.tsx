@@ -1,4 +1,4 @@
-import "../../styles/Skills.css"
+import "../styles/Skills.css"
 import * as BiIcons from "react-icons/bi"
 import {TbBrandKotlin} from "react-icons/tb"
 
@@ -15,6 +15,9 @@ export const Skills = () => {
                     <li className="skill-item">React <BiIcons.BiLogoReact /></li>
                     <li className="skill-item">Java <BiIcons.BiLogoJava /></li>
                     <li className="skill-item">Kotlin <TbBrandKotlin /></li>
+                    <li className="skill-item">C++ <BiIcons.BiLogoCPlusPlus /></li>
+                    <li className="skill-item">Python <BiIcons.BiLogoPython /></li>
+                    
                 </ul>
             </div>
         </section>

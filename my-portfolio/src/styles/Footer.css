@@ -1,9 +1,10 @@
 .footer-container{
+    height: 12vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #c3a6a0;
+    background-color: var(--mainColor);
     color: var(--textColor);
 }
 .footer-title{

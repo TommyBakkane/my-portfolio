@@ -10,7 +10,7 @@
     width: 80%;
     height: 80%;
     border-radius: 1rem;
-    background-color: #c3a6a0;
+    background-color: var(--mainColor);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 1.5rem;
 }
@@ -29,7 +29,7 @@
     grid-template-columns: repeat(3, 1fr);
     list-style: none;
     text-align: center;
-    gap: 2rem;
+    gap: 3rem;
     margin-top: 2rem;
 }
 

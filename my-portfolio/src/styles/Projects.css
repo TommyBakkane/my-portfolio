@@ -9,20 +9,16 @@
     list-style: none;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    justify-content: center;
-    gap: 4rem;
-    margin: 2rem 2rem 2rem 2rem;
+    gap: 2rem;
+    margin: 1rem 1rem 1rem 1rem;
 }
 
 .project-item{
-    background-color: #c3a6a0;
+    background-color: var(--mainColor);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 1rem;
-    position: relative;
     height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 75%;
+    justify-self: center;
+    border: none;
 }

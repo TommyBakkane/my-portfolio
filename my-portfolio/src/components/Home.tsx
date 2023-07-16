@@ -1,4 +1,4 @@
-import "../../styles/Home.css"
+import "../styles/Home.css"
 import * as BsIcon from "react-icons/bs";
 
 export const Home = () => {

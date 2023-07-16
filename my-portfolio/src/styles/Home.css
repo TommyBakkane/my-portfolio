@@ -15,7 +15,7 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
-    color: #c3a6a0;
+    color: var(--mainColorDark);
 }
 
 .text-container__home{
@@ -30,7 +30,7 @@
     font-weight: bold;
 }
 .title__home span{
-    color: #A15C38;
+    color: var(--mainColorDark);
 }
 
 .sub-title__home{
@@ -39,3 +39,9 @@
     margin-bottom: 2rem;
 }
 
+@media screen and (max-width: 768px) {
+    .image-container__home{
+        height: 20rem;
+        width: 20rem;
+    }
+}

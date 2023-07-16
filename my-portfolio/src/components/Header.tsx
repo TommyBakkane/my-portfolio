@@ -1,5 +1,5 @@
 import { MutableRefObject, useRef } from "react";
-import "../../styles/Header.css";
+import "../styles/Header.css";
 import {FaBars, FaTimes} from "react-icons/fa";
 
 export const Header = () => {
