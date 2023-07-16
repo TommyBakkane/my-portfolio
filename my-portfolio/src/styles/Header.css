@@ -19,7 +19,7 @@
     color: var(--textColor);
 }
 .header-title a:hover{
-    color: var(--textColorSecondary);
+    color: var(--detailColor);
 }
 
 .nav-container{
@@ -36,7 +36,7 @@
     font-size: 1.5rem;
 }
 .nav-item:hover{
-    color: var(--textColorSecondary);
+    color: var(--detailColor);
 }
 
 .nav-btn{

@@ -27,5 +27,5 @@
     color: var(--textColor);
 }
 .social-item a:hover{
-    color: var(--textColorSecondary);
+    color: var(--detailColor);
 }
