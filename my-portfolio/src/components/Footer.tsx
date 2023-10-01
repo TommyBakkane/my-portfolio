@@ -1,5 +1,4 @@
 import * as AiIcon from "react-icons/ai"
-import "../styles/Footer.css"
 
 export const Footer = () => {
 
