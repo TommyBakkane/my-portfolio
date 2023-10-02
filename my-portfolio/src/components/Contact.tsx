@@ -1,6 +1,6 @@
 export const Contact = () => {
     return(
-        <section className="w-full h-screen bg-stone-50 z-1 p-4" id="contact">
+        <section className="snap-start flex-shrink-0 w-full h-screen bg-stone-50 p-4" id="contact">
             <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
                 <div className="pb-8">
                     <p className="text-4xl font-bold inline border-b-4 border-gray-500">Contact</p>
@@ -8,7 +8,7 @@ export const Contact = () => {
                 </div>
 
                 <div className="flex justify-center items-center">
-                    <form action="" className="flex flex-col w-full md:w-1/2">
+                    <form action="" className="flex flex-col w-screen">
                         <input 
                         type="text"
                         name="name"
@@ -27,7 +27,6 @@ export const Contact = () => {
 
                         <button className="bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300 text-white">Submit</button>
                     </form>
-
                 </div>
             </div>
             </section>

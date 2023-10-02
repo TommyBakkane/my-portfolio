@@ -21,7 +21,7 @@ export const Projects = () => {
     
 
     return (
-        <section id="projects" className="bg-stone-50 w-full md:h-screen">
+        <section id="projects" className=" snap-start flex-shrink-0 bg-stone-50 w-screen h-screen">
 
             <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
                 <div className="py-6">
@@ -29,7 +29,7 @@ export const Projects = () => {
                     <p className="py-6">Check out some of my work</p>
                 </div>
 
-                <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+                <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 overflow-y-auto overflow-x-hidden h-4/6 ">
                 {
                 projects.map(({id, src}) => (
                     <div key={id} className="rounded-lg">

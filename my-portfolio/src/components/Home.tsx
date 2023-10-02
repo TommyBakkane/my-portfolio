@@ -1,13 +1,14 @@
 import * as BsIcon from "react-icons/bs";
 import {MdOutlineKeyboardArrowRight} from "react-icons/md"
 
+
 export const Home = () => {
 
         return (
-            <section id="home" className="h-screen w-full bg-stone-50">
+            <section id="home" className="h-screen w-full bg-stone-50 snap-start flex-shrink-0">
                 <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
                     <div className="flex flex-col justify-center h-full">
-                        <h1 className="text-4xl sm:text-8xl font-bold justify-center">Hi, I'm Tommy</h1>
+                        <h1 className="text-6xl sm:text-8xl font-bold justify-center">Hi, I'm Tommy</h1>
                         <h2 className="text-4xl sm:text-7xl text-gray-400 ">Full Stack Developer</h2>
                         <p className="text-gray-500 py-4 max-w-md">I'm a Full Stack Developer based in Oslo, Norway. I have a passion for web development and love to create for web and mobile devices.</p>
                         <div>

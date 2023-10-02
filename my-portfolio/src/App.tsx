@@ -6,15 +6,15 @@ import { Projects } from './components/Projects';
 import { Skills } from './components/Skills';
 
 function App() {
+
   return (
-    <>
+    <div className='snap-y snap-mandatory h-screen w-screen flex flex-col overflow-x-hidden'>
       <Header />
       <Home />
       <Skills />
       <Projects />
       <Contact />
-      
-    </>
+    </div>
   );
 }
 
