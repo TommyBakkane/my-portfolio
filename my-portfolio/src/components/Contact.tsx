@@ -1,33 +1,4 @@
-import { Form, Input, TextArea, Button } from "semantic-ui-react";
-import emailjs from "emailjs-com";
-import Swal from "sweetalert2";
-import { Footer } from "./Footer";
-
 export const Contact = () => {
-    const SERVICE_ID = "service_u2a77fa";
-    const TEMPLATE_ID = "template_aqd3r7r";
-    const USER_ID = "5AWOKyh060oMsIV5x";
-
-    const handleOnSubmit = (e: any) => {
-        e.preventDefault();
-        emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
-        .then((result) => {
-            console.log(result.text);
-            Swal.fire({
-                icon: 'success',
-                title: 'Email sent successfully',
-            })
-        }, (error) => {
-            console.log(error.text);
-            Swal.fire({
-                icon: 'error',
-                title: 'Oops...',
-                text: 'Something went wrong!',
-            })
-        });
-        e.target.reset();
-    }
-
     return(
         <section className="w-full h-screen bg-stone-50 z-1 p-4" id="contact">
             <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
@@ -59,7 +30,6 @@ export const Contact = () => {
 
                 </div>
             </div>
-            <Footer />
-        </section>
-    )
-}
+            </section>
+        )
+    }

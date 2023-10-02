@@ -1,11 +1,10 @@
-import { MutableRefObject, useRef, useState } from "react";
+import { useState } from "react";
 import {FaBars, FaTimes} from "react-icons/fa";
 import { Link } from "react-scroll";
 
 export const Header = () => {
 
     const [nav, setNav] = useState(false)
-    
     const links = [
         {
             id: 1,

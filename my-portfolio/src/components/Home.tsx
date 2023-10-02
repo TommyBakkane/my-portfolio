@@ -1,13 +1,11 @@
-
 import * as BsIcon from "react-icons/bs";
 import {MdOutlineKeyboardArrowRight} from "react-icons/md"
 
 export const Home = () => {
-    
+
         return (
             <section id="home" className="h-screen w-full bg-stone-50">
                 <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-                    
                     <div className="flex flex-col justify-center h-full">
                         <h1 className="text-4xl sm:text-8xl font-bold justify-center">Hi, I'm Tommy</h1>
                         <h2 className="text-4xl sm:text-7xl text-gray-400 ">Full Stack Developer</h2>
@@ -21,13 +19,13 @@ export const Home = () => {
                         </button>
                     </div>
                     </div>
-                    
+
                     <div >
                         <BsIcon.BsPersonFill className="rounded-2xl mx-auto w-2/3 md:w-full text-8xl text-white" />
                     </div>
                     
                 </div>
-            
+
             </section>
         )
 }

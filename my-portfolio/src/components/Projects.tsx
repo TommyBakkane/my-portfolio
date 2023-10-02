@@ -1,26 +1,24 @@
-import React from "react";
-import { idText } from "typescript";
-
 export const Projects = () => {
 
     const projects = [
         {
             id: 1,
-            src: require('../assets/img/placeholder-1.jpg')
+            src: require('../../src/assets/images/placeholder-1.jpeg')
         },
         {
             id: 2,
-            src: require('../assets/img/placeholder-2.jpg')
+            src: require('../../src/assets/images/placeholder-2.jpeg')
         },
         {
             id: 3,
-            src: require('../assets/img/placeholder-3.jpg')
+            src: require('../../src/assets/images/placeholder-3.jpeg')
         },
         {
             id: 4,
-            src: require('../assets/img/placeholder-4.jpg')
+            src: require('../../src/assets/images/placeholder-4.jpeg')
         },
     ]
+    
 
     return (
         <section id="projects" className="bg-stone-50 w-full md:h-screen">
