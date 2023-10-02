@@ -58,56 +58,7 @@ export const Skills = () => {
             src: <SwiftIcon/>,
         },
     ]
-
-
-    const skills = [
-        {
-            id: 1,
-            title: "C++",
-            src: <CIcon/>,
-        },
-        {
-            id: 2,
-            title: "CSS",
-            src: <CssIcon/>,
-        },
-        {
-            id: 3,
-            title: "HTML",
-            src: <HtmlIcon/>,
-        },
-        {
-            id: 4,
-            title: "Java",
-            src: <JavaIcon/>,
-        },
-        {
-            id: 5,
-            title: "JavaScript",
-            src: <JavascriptIcon/>,
-        },
-        {
-            id: 6,
-            title: "Kotlin",
-            src: <KotlinIcon/>,
-        },
-        {
-            id: 7,
-            title: "Python",
-            src: <PythonIcon/>,
-        },
-        {
-            id: 8,
-            title: "React",
-            src: <ReactIcon/>,
-        },
-        {
-            id: 9,
-            title: "Swift",
-            src: <SwiftIcon/>,
-        },
-    ]
-
+    
     return(
         <section id="skills" className="bg-stone-50 w-full h-screen">
             <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full">
