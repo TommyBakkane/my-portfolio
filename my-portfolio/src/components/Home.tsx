@@ -22,7 +22,7 @@ export const Home = () => {
                     </div>
 
                     <div >
-                        <BsIcon.BsPersonFill className="rounded-2xl mx-auto w-2/3 md:w-full text-8xl text-white" />
+                        <BsIcon.BsPersonFill className="rounded-2xl mb-12 mx-12 w-2/3 md:w-full text-8xl text-black" />
                     </div>
                     
                 </div>
